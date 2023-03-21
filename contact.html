@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamila Online Restaurant!</title>
+
+    <nav class="links">
+        <!-- <div class="AboutUs underlineAnimation"><a href="">About Us</a></div> -->
+        <div class="OurMenu underlineAnimation"><a href="Menu.html">Our Menu</a></div>
+        <div class="HamilaLogo"><a href="index.html"><img src="img/Hamila tm logo ver 3.png" alt="Hamila" width="170"></a></div>
+        <div class="contact underlineAnimation"><a href="contact.html">Contact Info</a></div>
+        <div class="shopbasket"><a href="myOrder.html"><img src="img/shopbasketwhite.png" alt="shopping_basket" height="40"></a></div>
+    </nav>
+</head>
+<body>
+    <div class="bodyEdit">
+            <!-- Denna div används som en container till innehållet, i CSS så har vi gett den 
+            bakgrundfärg och border, för att se tydligt vad div:en gör -->
+            <div class="contactContainer">
+                <h1 class="center">Register your account here!</h1>
+
+                <div class="contactPadding">
+                
+                <!-- Här har fieldset lagts till, för att markera utsidan av denna formulär -->
+                <fieldset class="fieldsetWidth">
+                    <!-- legend för att lägga en "titel" till fieldset -->
+                    <legend>Fill out the details</legend>
+
+                <div class="inputFlex">
+
+                <!-- Label för att tydliggöra att fylla i Full Name samt input för att fylla i -->
+                <label for="fullName">Full name</label>
+                <input type="text" name="fullName" id="fullname">
+
+                <br>
+
+                <!-- Label och input för email field -->
+                <label for="email" class="emailEdit">E-mail</label>
+                <input type="text" name="email" id="email">
+
+                <br>
+                
+                <!-- Label och input för telefonnummer field -->
+                <label for="telNmr" class="telNumber">Telefonnummer</label>
+                <input type="text" class="telNmr" id="telefonnummer">
+
+                <br>
+
+                <!-- Label och input för password field -->
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password">
+
+                <br>
+                
+                <!-- Här används radio knappar som man ser i type="radio" så att använder bara
+                kan fylla i en kriterie till frågan i paragraph:en-->
+                <form action="#">
+                <p>Gå med i online Food Shop?</p>
+                <input type="radio" name="radio" id="onlineFoodShop" value="onlineFoodShop">
+                <label for="onlineFoodShop">Ja</label>
+                <input type="radio" name="radio" id="onlineFoodShop" value="onlineFoodShop">
+                <label for="onlineFoodShop">Nej</label> 
+                </form>
+
+                <br>
+
+                <!-- Slutligen lades några buttons till för att användaren ska ha möjligheten att
+                skicka eller återställe sitt svar -->
+                <button>Skicka</button>
+                <br>
+                <button>Återställ</button>
+
+                </div>
+
+                </fieldset>
+
+                </div>
+
+                <!-- En bild lades till bredvid formulären med img src och en paragraph under den -->
+                <img class="CEOimgPlacement" src="/img/Hamila CEO.jpg" alt="CEOpic" width="250">
+                <p class="contactParagraphPlacement">Founder of Hamila TM</p>
+            </div>
+    </div>
+</body>
+<footer>
+    <div class="footerFlex">
+        <a href="#" class="hoverEffect">Contact Us</a>
+        <a href="#" class="hoverEffect">FAQ</a>
+        <a href="#" class="hoverEffect">Our policy</a>
+    </div>
+    <div class="footerFlex2">
+        <a href="#" class="hoverEffect">Terms and Conditions</a>
+        <a href="#" class="hoverEffect">Report Something</a>
+        <a href="#" class="hoverEffect">Work with us!</a>
+    </div>
+    <p class="copyrightCenter">© Adam Hama Gareb 2022</p>
+</footer>
+</html>

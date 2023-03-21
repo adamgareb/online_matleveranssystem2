@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hamila Online Restaurant!</title>
+
+    <nav class="links">
+        <div class="OurMenu underlineAnimation"><a href="Menu.html">Our Menu</a></div>
+        <div class="HamilaLogo"><a href="index.html"><img src="img/Hamila tm logo ver 3.png" alt="Hamila" width="170"></a></div>
+        <div class="contact underlineAnimation"><a href="contact.html">Contact Info</a></div>
+        <div class="shopbasket"><a href="myOrder.html"><img src="img/shopbasketwhite.png" alt="shopping_basket" height="40"></a></div>
+    </nav>
+</head>
+<body>
+    <div class="bodyEdit">
+        <div class="welcome_text">
+            <div class="welcome_animation">
+                <h1 class="menuh1Center">Our menu</h1>
+            </div>
+        </div>
+        <!-- Här har vi en "huvud div" med namn "parentContainer" som hjälper "child div:erna" hålla 
+        sig på plats då denna har display:flex och justify-content i CSS:en -->
+        <div class="parentContainer">
+            <!-- I div:erna med "childContainer" så innehåller alla en img src för att lägga en bild,
+            h3 för att lägga en liten header text, paragraph tag och slutlitgen en h3 igen med denna
+            gång med en anchor tag inuti. Samma gäller för alla dessa div med "childContainer" -->
+            <div class="childContainer">
+                <img src="img/Halal style street food.jpg" alt="Dish1" height="170" width="190" class="menuImgCenter">
+                <h3 class="foodName">Halali Street Food</h3>
+                <p class="foodPrice">$13.99</p>
+                <h3 class="addToCart"><a href="#">Add to Cart</a></h3>
+            </div>
+            <div class="childContainer">
+                <img src="img/Al pizza.jpg" alt="Dish 2" height="170" width="190" class="menuImgCenter">
+                <h3 class="foodName">The "Al Pizza"</h3>
+                <p class="foodPrice">$59.99</p>
+                <h3 class="addToCart"><a href="#">Add to Cart</a></h3>
+            </div>
+            <div class="childContainer">
+                <img src="img/kebabtallrik.jpg" alt="Dish3" height="170" width="190" class="menuImgCenter">
+                <h3 class="foodName">The Hamila Special</h3>
+                <p class="foodPrice">$99.98</p>
+                <h3 class="addToCart"><a href="#">Add to Cart</a></h3>
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="footerFlex">
+        <a href="#" class="hoverEffect">Contact Us</a>
+        <a href="#" class="hoverEffect">FAQ</a>
+        <a href="#" class="hoverEffect">Our policy</a>
+    </div>
+    <div class="footerFlex2">
+        <a href="#" class="hoverEffect">Terms and Conditions</a>
+        <a href="#" class="hoverEffect">Report Something</a>
+        <a href="#" class="hoverEffect">Work with us!</a>
+    </div>
+    <p class="copyrightCenter">© Adam Hama Gareb 2022</p>
+</footer>
+</html>
